@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta>
+  <link rel="stylesheet" type="text/css" href="style_bkup.css">
+  <!--link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css"-->
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <script src="event_bkup.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!--script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('.container').hide().fadeIn(2500);
+    $('#fade1').hide().fadeIn(5000);
+    $('#fade2').hide().fadeIn(10000);
+  });
+</script-->
+</head>
+<body>
+  <header>
+  </header> 
+  <div class="container">
+    <div class="row" style="margin:20px 0 20px 0;">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 Jumbotron text-center">
+        <h1><small>Let's play a game of</small></h1>
+        <h1>Rock | Paper | Scissor</h1>
+      </div>
+      <div class="col-md-2 "></div>
+    </div>
+    <div id="fade1" class="row">
+      <div class="col-md-12 text-center ">
+        <p class="lead">Please select an option below</p>
+      </div>
+    </div>
+    <div id="fade2" class="row" style="margin:20px 0 20px 0;">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8 text-center">
+        <button class="btn btn-primary" onclick="compare(human(1),computer); load()">Rock</button>
+        <button class="btn btn-success" onclick="compare(human(2),computer); load()">Paper</button>
+        <button class="btn btn-info" onclick="compare(human(3),computer); load()">Scissor</button>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

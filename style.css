@@ -1,0 +1,12 @@
+body {
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+.container button {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  font-size: 40px;
+  border-radius: 15px;
+}
