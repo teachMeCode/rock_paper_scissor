@@ -34,7 +34,7 @@ var compare = function(x,y) {
         if (x==y) {
           //Need to return results, not print results
           //return ("No way, a tie! How is that possible?!");
-          alert("No way! A tie, how is possible!\n\nPlease play again!");
+          alert("No way! A tie, how is that possible!\n\nPlease play again!");
         } else if (x=="Rock") {
           if (y=="Scissor") {
             //return "Rock wins";
